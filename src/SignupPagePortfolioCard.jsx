@@ -1,6 +1,6 @@
 function SignupPagePortfolioCard() {
-  let name = "Signup Page"
-  let description = "Wubzys Fan Club signup page I built in Level 2."
+  let name = "Wubzys Fan Club | Signup Page"
+  let description = "A clean and simple signup experience I built while learning the foundations of web development."
   let liveUrl = "https://helloimshanae.github.io/signup-page/"
   let repoUrl = "https://github.com/helloimshanae/signup-page"
 

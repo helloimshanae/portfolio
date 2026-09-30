@@ -1,6 +1,6 @@
 function ClickLabPortfolioCard() {
-  let name = "Click Lab"
-  let description = "Wubzy's Quizzy Whizzy - A click-based project I built in Level 2."
+  let name = "Wubzy's Quizzy Whizzy | Click Lab"
+  let description = "A fun cat trivia quiz where you test your cat knowledge, get instant right-or-wrong feedback, hear sound effects and build your score."
   let liveUrl = "https://helloimshanae.github.io/click-lab/"
   let repoUrl = "https://github.com/helloimshanae/click-lab"
 

@@ -1,6 +1,6 @@
 function GreetingCardGeneratorPortfolioCard() {
-  let name = "Greeting Card Generator"
-  let description = " Wubzys Words of Wonder - A greeting card generator I built in Level 2."
+  let name = "Wubzys Words of Wonder | Greeting Card Generator"
+  let description = "A fun little project where users can create puuurrsonalized greeting cards."
   let liveUrl = "https://helloimshanae.github.io/greeting-card-generator/"
   let repoUrl = "https://github.com/helloimshanae/greeting-card-generator"
 

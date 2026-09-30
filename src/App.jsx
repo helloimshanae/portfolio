@@ -15,7 +15,7 @@ function App() {
     <div className="container">
       <Header />
       <Greeting />
-      <p>Software developer in training</p>
+      <p><p>Software developer in training - building one project at a time.</p></p>
       <About />
       <Skills />
       <ProjectCount />
