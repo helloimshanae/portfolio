@@ -7,6 +7,8 @@ import GitHubLink from './GitHubLink.jsx'
 import ProjectCount from './ProjectCount.jsx'
 import Footer from './Footer.jsx'
 import SignupPagePortfolioCard from './SignupPagePortfolioCard.jsx'
+import GreetingCardGeneratorPortfolioCard from './GreetingCardGeneratorPortfolioCard.jsx'
+import ClickLabPortfolioCard from './ClickLabPortfolioCard.jsx'
 
 function App() {
   return (
@@ -20,6 +22,8 @@ function App() {
       <GitHubLink />
       <Fortune />
       <SignupPagePortfolioCard />
+      <GreetingCardGeneratorPortfolioCard />
+      <ClickLabPortfolioCard />
       <Footer />
     </div>
   )
