@@ -24,6 +24,16 @@ function GitHubLink() {
   return <a href={url}>{label}</a>
 }
 
+function ProjectCount() {
+  let projects = [
+    "DC Comics Characters",
+    "Click Lab",
+    "Greeting Card Generator"
+  ]
+
+  return <p>I have completed {projects.length} projects in Level 2.</p>
+}
+
 function Footer() {
   let year = new Date().getFullYear()
   return <p>&copy; {year} helloimshanae</p>
@@ -35,6 +45,7 @@ function App() {
       <Header />
       <p>Software developer in training</p>
       <About />
+      <ProjectCount />
       <GitHubLink />
       <Fortune />
       <Footer />
