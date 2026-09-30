@@ -16,6 +16,13 @@ function Fortune() {
   return <p>{fortunes[index]}</p>
 }
 
+function GitHubLink() {
+  let url = "https://github.com/helloimshanae"
+  let label = "GitHub Profile @helloimshanae"
+
+  return <a href={url}>{label}</a>
+}
+
 function Footer() {
   let year = new Date().getFullYear()
   return <p>&copy; {year} helloimshanae</p>
@@ -26,6 +33,7 @@ function App() {
     <div>
       <Header />
       <p>Software developer in training</p>
+      <GitHubLink />
       <Fortune />
       <Footer />
     </div>
