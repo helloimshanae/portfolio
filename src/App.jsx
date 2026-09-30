@@ -6,6 +6,7 @@ import Fortune from './Fortune.jsx'
 import GitHubLink from './GitHubLink.jsx'
 import ProjectCount from './ProjectCount.jsx'
 import Footer from './Footer.jsx'
+import SignupPagePortfolioCard from './SignupPagePortfolioCard.jsx'
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <ProjectCount />
       <GitHubLink />
       <Fortune />
+      <SignupPagePortfolioCard />
       <Footer />
     </div>
   )
