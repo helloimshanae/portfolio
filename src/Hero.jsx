@@ -3,16 +3,11 @@ import heroPhoto from './hero-photo.js'
 import './hero.css'
 
 function Hero() {
-  const photos = [
-    "premium_photo-1725356401065-b12922e64ee4",
-    "photo-1754403360671-897ee7c537f1",
-    "photo-1702116874638-d2996a368a1f",
-  ]
 
-  const descriptions = [
-    "Metallic Skull with Barbwire",
-    "Day of the Dead pink sugar skull",
-    "Skull graffiti",
+  const photos = [
+    { id: "premium_photo-1725356401065-b12922e64ee4", description: "Metallic Skull with Barbwire" },
+    { id: "photo-1754403360671-897ee7c537f1", description: "Day of the Dead pink sugar skull" },
+    { id: "photo-1702116874638-d2996a368a1f", description: "Skull graffiti" },
   ]
 
   const [index, setIndex] = useState(0)
@@ -54,13 +49,15 @@ function Hero() {
     setBlur(0)
   }
 
+  const { id, description } = photos[index]
+
   const [src, alt, thumb] = heroPhoto({
-    photo: photos[index],
+    photo: id,
     width: 1000,
     height: 600,
     sat,
     blur,
-    description: descriptions[index],
+    description,
   })
 
   return (
