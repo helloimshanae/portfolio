@@ -12,6 +12,12 @@ function SignupPagePortfolioCard() {
     setLikes(likes + 1)
   }
 
+  const removeLike = () => {
+  if (likes > 0) {
+    setLikes(likes - 1)
+  }
+}
+
   return (
     <article className="card-jade">
       <h2>{name}</h2>
@@ -21,6 +27,7 @@ function SignupPagePortfolioCard() {
         <a href={repoUrl} role="button" className="outline">Read the code</a>
       </p>
       <button onClick={addLike}>Like {likes}</button>
+      <button onClick={removeLike}>Unlike</button>
     </article>
   )
 }
