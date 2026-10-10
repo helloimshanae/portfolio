@@ -22,6 +22,7 @@ function Hero() {
       </div>
       <p>
         <button onClick={showColor}>Color</button>
+        &nbsp;
         <button onClick={showBlackAndWhite}>Black and White</button>
       </p>
     </div>
