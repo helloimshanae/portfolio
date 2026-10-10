@@ -1,0 +1,10 @@
+/* footer.css — the smaller hero image at the top of the page. */
+
+footer {
+  text-align: center;
+  margin: 1rem;
+}
+
+footer img {
+  margin-bottom: 1rem;
+}
