@@ -54,18 +54,19 @@ function Hero() {
     setBlur(0)
   }
 
-  const [src, alt, thumb] = heroPhoto(
-    photos[index],
-    1000,
-    600,
+  const [src, alt, thumb] = heroPhoto({
+    photo: photos[index],
+    width: 1000,
+    height: 600,
     sat,
-    descriptions[index]
-  )
+    blur,
+    description: descriptions[index],
+  })
 
   return (
     <div>
       <div className="hero">
-        <img src={src + "&blur=" + blur} alt={alt} />
+        <img src={src} alt={alt} />
       </div>
       <p className="hero-buttons">
         <button onClick={previousPhoto}>Previous Photo</button>
