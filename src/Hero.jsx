@@ -13,7 +13,13 @@ function Hero() {
     setSat(-100)
   }
 
-  const [src, alt, thumb] = heroPhoto(600, 250, "Metallic Skull with Barbwire", sat)
+  const [src, alt, thumb] = heroPhoto(
+    "premium_photo-1725356401065-b12922e64ee4",
+    600,
+    250,
+    sat,
+    "Metallic Skull with Barbwire"
+  )
 
   return (
     <div>

@@ -4,7 +4,13 @@ import './footer.css'
 function Footer() {
   const year = new Date().getFullYear()
   const githubUrl = "https://github.com/helloimshanae"
-  const [, , thumb] = heroPhoto(1200, 500, "Metallic Skull with Barbwire")
+  const [, , thumb] = heroPhoto(
+    "premium_photo-1725356401065-b12922e64ee4",
+    1200,
+    500,
+    0,
+    "Metallic Skull with Barbwire"
+  )
   
   return (
     <footer>
