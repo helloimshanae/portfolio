@@ -1,5 +1,6 @@
 // IMPORT PAGE COMPONENTS
 import Header from './Header.jsx'
+import Hero from './Hero.jsx'
 import About from './About.jsx'
 import Greeting from './Greeting.jsx'
 import Skills from './Skills.jsx'
@@ -16,6 +17,7 @@ function App() {
   return (
     <div className="container">
       <Header />
+      <Hero />
       <Greeting />
       <p>Software developer in training - building one project at a time.</p>
       <Links />
