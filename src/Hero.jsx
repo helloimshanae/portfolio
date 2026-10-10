@@ -3,6 +3,18 @@ import heroPhoto from './hero-photo.js'
 import './hero.css'
 
 function Hero() {
+  const photos = [
+    "premium_photo-1725356401065-b12922e64ee4",
+    "photo-1754403360671-897ee7c537f1",
+    "photo-1702116874638-d2996a368a1f",
+  ]
+
+  const descriptions = [
+    "Metallic Skull with Barbwire",
+    "Day of the Dead pink sugar skull",
+    "Skull graffiti",
+  ]
+
   const [sat, setSat] = useState(0)
 
   const showColor = () => {
@@ -14,11 +26,11 @@ function Hero() {
   }
 
   const [src, alt, thumb] = heroPhoto(
-    "premium_photo-1725356401065-b12922e64ee4",
-    600,
-    250,
+    photos[0],
+    1200,
+    500,
     sat,
-    "Metallic Skull with Barbwire"
+    descriptions[0]
   )
 
   return (
