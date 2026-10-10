@@ -1,0 +1,10 @@
+/* header.css — at the top of the page. */
+
+header {
+    text-align: center;
+    margin: 1rem;
+}
+
+header img {
+  margin-top: 1rem;
+}

@@ -3,7 +3,7 @@ import heroPhoto from './hero-photo.js'
 import './hero.css'
 
 function Hero() {
-  const [src, alt] = heroPhoto(1200, 500, "Metallic Skull with Barbwire")
+  const [src, alt, thumb] = heroPhoto(600, 250, "Metallic Skull with Barbwire")
 
   return (
     <div className="hero">
