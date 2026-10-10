@@ -1,3 +1,4 @@
+// IMPORT PAGE COMPONENTS
 import Header from './Header.jsx'
 import About from './About.jsx'
 import Greeting from './Greeting.jsx'
@@ -15,15 +16,19 @@ function App() {
     <div className="container">
       <Header />
       <Greeting />
-      <p><p>Software developer in training - building one project at a time.</p></p>
+      <p>Software developer in training - building one project at a time.</p>
       <About />
       <Skills />
       <ProjectCount />
       <GitHubLink />
       <Fortune />
-      <SignupPagePortfolioCard />
-      <GreetingCardGeneratorPortfolioCard />
-      <ClickLabPortfolioCard />
+
+      <div className="grid">
+        <SignupPagePortfolioCard />
+        <GreetingCardGeneratorPortfolioCard />
+        <ClickLabPortfolioCard />
+      </div>
+
       <Footer />
     </div>
   )
