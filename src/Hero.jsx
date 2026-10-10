@@ -1,13 +1,13 @@
 
-import imageUrl from './image-url.js'
+import heroPhoto from './hero-photo.js'
 import './hero.css'
 
 function Hero() {
-  const src = imageUrl(1200, 500)
+  const [src, alt] = heroPhoto(1200, 500, "Metallic Skull with Barbwire")
 
   return (
     <div className="hero">
-      <img src={src} alt="Metallic Skull with barbwire" />
+      <img src={src} alt={alt} />
     </div>
   )
 }
