@@ -6,9 +6,9 @@ function randomNumber(min, max) {
 
 function Fortune() {
   const fortunes = [
-    "Keep going - you are closer than you think.",
-    "Small steps still move you forward.",
-    "You can learn anything one step at a time."
+    "Trust yourself. You're capable of more than you think.",
+    "Progress over perfection. Keep showing up for yourself.",
+    "Your future self will thank you for what you do today."
   ]
 
   const [index, setIndex] = useState(0)
@@ -20,7 +20,7 @@ function Fortune() {
   return (
     <div>
       <p>{fortunes[index]}</p>
-      <button onClick={newFortune}>New Fortune</button>
+      <button className="new-fortune" onClick={newFortune}>Another Fortune</button>
     </div>
   )
 }

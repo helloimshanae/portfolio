@@ -68,12 +68,12 @@ function Hero() {
         <img src={src + "&blur=" + blur} alt={alt} />
       </div>
       <p className="hero-buttons">
-        <button onClick={previousPhoto}>Previous</button>
-        <button onClick={nextPhoto}>Next</button>
-        <button onClick={showColor}>Color</button>
-        <button onClick={showBlackAndWhite}>Black and White</button>
-        <button onClick={moreBlur}>More Blur</button>
-        <button onClick={removeBlur}>No Blur</button>
+        <button onClick={previousPhoto}>Previous Photo</button>
+        <button onClick={nextPhoto}>Next Photo</button>
+        <button onClick={showColor}>Full Color</button>
+        <button onClick={showBlackAndWhite}>Black & White</button>
+        <button onClick={moreBlur}>Add Blurr</button>
+        <button onClick={removeBlur}>Remove Blur</button>
       </p>
     </div>
   )
