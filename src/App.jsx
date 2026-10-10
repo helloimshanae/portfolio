@@ -7,6 +7,7 @@ import Fortune from './Fortune.jsx'
 import GitHubLink from './GitHubLink.jsx'
 import ProjectCount from './ProjectCount.jsx'
 import Footer from './Footer.jsx'
+import Links from './Links.jsx'
 import SignupPagePortfolioCard from './SignupPagePortfolioCard.jsx'
 import GreetingCardGeneratorPortfolioCard from './GreetingCardGeneratorPortfolioCard.jsx'
 import ClickLabPortfolioCard from './ClickLabPortfolioCard.jsx'
@@ -17,6 +18,7 @@ function App() {
       <Header />
       <Greeting />
       <p>Software developer in training - building one project at a time.</p>
+      <Links />
       <About />
       <Skills />
       <ProjectCount />
