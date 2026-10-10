@@ -1,0 +1,13 @@
+article.card-jade {
+  --pico-card-background-color: var(--pico-color-jade-50);
+  --pico-color: var(--pico-color-jade-850);
+  --pico-h2-color: var(--pico-color-jade-850);
+  --pico-primary: var(--pico-color-jade-650);
+}
+
+article.card-violet {
+  --pico-card-background-color: var(--pico-color-violet-50);
+  --pico-color: var(--pico-color-violet-850);
+  --pico-h2-color: var(--pico-color-violet-850);
+  --pico-primary: var(--pico-color-violet-650);
+}

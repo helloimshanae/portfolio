@@ -5,7 +5,7 @@ function SignupPagePortfolioCard() {
   let repoUrl = "https://github.com/helloimshanae/signup-page"
 
   return (
-    <article>
+    <article className="card-jade">
       <h2>{name}</h2>
       <p>{description}</p>
       <p>
