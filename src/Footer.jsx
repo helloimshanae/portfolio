@@ -1,6 +1,6 @@
 function Footer() {
-  let year = new Date().getFullYear()
-  let githubUrl = "https://github.com/helloimshanae"
+  const year = new Date().getFullYear()
+  const githubUrl = "https://github.com/helloimshanae"
 
   return (
     <footer>
