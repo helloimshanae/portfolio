@@ -1,6 +1,6 @@
 function ProjectCount() {
-  let projects = [
-    "DC Comics Characters",
+  const projects = [
+    "Signup Page",
     "Click Lab",
     "Greeting Card Generator"
   ]

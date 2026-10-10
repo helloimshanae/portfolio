@@ -11,3 +11,10 @@ article.card-violet {
   --pico-h2-color: var(--pico-color-violet-850);
   --pico-primary: var(--pico-color-violet-650);
 }
+
+article.card-yellow {
+  --pico-card-background-color: var(--pico-color-yellow-50);
+  --pico-color: var(--pico-color-yellow-850);
+  --pico-h2-color: var(--pico-color-yellow-850);
+  --pico-primary: var(--pico-color-yellow-650);
+}

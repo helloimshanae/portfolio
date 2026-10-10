@@ -1,11 +1,11 @@
 function ClickLabPortfolioCard() {
-  let name = "Wubzy's Quizzy Whizzy | Click Lab"
-  let description = "A fun cat trivia quiz where you test your cat knowledge, get instant right-or-wrong feedback, hear sound effects and build your score."
-  let liveUrl = "https://helloimshanae.github.io/click-lab/"
-  let repoUrl = "https://github.com/helloimshanae/click-lab"
+  const name = "Wubzy's Quizzy Whizzy | Click Lab"
+  const description = "A fun cat trivia quiz where you test your cat knowledge, get instant right-or-wrong feedback, hear sound effects and build your score."
+  const liveUrl = "https://helloimshanae.github.io/click-lab/"
+  const repoUrl = "https://github.com/helloimshanae/click-lab"
 
   return (
-    <article>
+    <article className="card-yellow">
       <h2>{name}</h2>
       <p>{description}</p>
       <p>

@@ -1,8 +1,8 @@
 function SignupPagePortfolioCard() {
-  let name = "Wubzys Fan Club | Signup Page"
-  let description = "A clean and simple signup experience I built while learning the foundations of web development."
-  let liveUrl = "https://helloimshanae.github.io/signup-page/"
-  let repoUrl = "https://github.com/helloimshanae/signup-page"
+  const name = "Wubzys Fan Club | Signup Page"
+  const description = "A clean and simple signup experience I built while learning the foundations of web development."
+  const liveUrl = "https://helloimshanae.github.io/signup-page/"
+  const repoUrl = "https://github.com/helloimshanae/signup-page"
 
   return (
     <article className="card-jade">

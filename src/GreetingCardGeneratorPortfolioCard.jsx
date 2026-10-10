@@ -1,8 +1,8 @@
 function GreetingCardGeneratorPortfolioCard() {
-  let name = "Wubzys Words of Wonder | Greeting Card Generator"
-  let description = "A fun little project where users can create puuurrsonalized greeting cards."
-  let liveUrl = "https://helloimshanae.github.io/greeting-card-generator/"
-  let repoUrl = "https://github.com/helloimshanae/greeting-card-generator"
+  const name = "Wubzys Words of Wonder | Greeting Card Generator"
+  const description = "A fun little project where users can create puuurrsonalized greeting cards."
+  const liveUrl = "https://helloimshanae.github.io/greeting-card-generator/"
+  const repoUrl = "https://github.com/helloimshanae/greeting-card-generator"
 
   return (
     <article className="card-violet">
