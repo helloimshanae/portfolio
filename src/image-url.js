@@ -1,10 +1,7 @@
-const imageUrl = (photo, width, height, sat = 0) => {
-const baseUrl = photo.startsWith("premium_photo-")
+const imageUrl = (photo, width, height, sat = 0) =>
+(photo.startsWith("premium_photo-")
 ? "https://plus.unsplash.com/"
-: "https://images.unsplash.com/"
-
-return (
-baseUrl +
+: "https://images.unsplash.com/") +
 photo +
 "?w=" +
 width +
@@ -12,7 +9,5 @@ width +
 height +
 "&fit=crop&auto=format&sat=" +
 sat
-)
-}
 
 export default imageUrl

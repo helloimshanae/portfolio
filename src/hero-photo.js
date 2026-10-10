@@ -3,7 +3,7 @@ import imageUrl from './image-url.js'
 const heroPhoto = (photo, width, height, sat, description) => {
   const src = imageUrl(photo, width, height, sat)
   const alt = description
-  const thumb = imageUrl(photo, 300, 125, sat)
+  const thumb = imageUrl(photo, 200, 125, sat)
 
   return [src, alt, thumb]
 }
