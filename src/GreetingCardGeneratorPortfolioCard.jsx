@@ -6,10 +6,14 @@ function GreetingCardGeneratorPortfolioCard() {
   const liveUrl = "https://helloimshanae.github.io/greeting-card-generator/"
   const repoUrl = "https://github.com/helloimshanae/greeting-card-generator"
 
-  const [likes, setLikes] = useState(0)
+  const [likes, setLikes] = useState(
+    Number(localStorage.getItem("greeting-card-likes"))
+  )
 
   const addLike = () => {
-    setLikes(likes + 1)
+    const newLikes = likes + 1
+    setLikes(newLikes)
+    localStorage.setItem("greeting-card-likes", newLikes)
   }
 
   const removeLike = () => {

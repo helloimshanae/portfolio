@@ -6,10 +6,14 @@ function SignupPagePortfolioCard() {
   const liveUrl = "https://helloimshanae.github.io/signup-page/"
   const repoUrl = "https://github.com/helloimshanae/signup-page"
 
-  const [likes, setLikes] = useState(0)
+  const [likes, setLikes] = useState(
+    Number(localStorage.getItem("signup-page-likes"))
+  )
 
   const addLike = () => {
-    setLikes(likes + 1)
+    const newLikes = likes + 1
+    setLikes(newLikes)
+    localStorage.setItem("signup-page-likes", newLikes)
   }
 
   const removeLike = () => {
