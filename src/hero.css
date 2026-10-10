@@ -10,3 +10,9 @@
   height: auto;
   margin: 0 auto;
 }
+
+.hero-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}

@@ -20,9 +20,8 @@ function Hero() {
       <div className="hero">
         <img src={src} alt={alt} />
       </div>
-      <p>
+      <p className="hero-buttons">
         <button onClick={showColor}>Color</button>
-        &nbsp;
         <button onClick={showBlackAndWhite}>Black and White</button>
       </p>
     </div>
