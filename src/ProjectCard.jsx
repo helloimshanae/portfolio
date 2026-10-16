@@ -37,6 +37,7 @@ function ProjectCard({ project}) {
   return (
     <article className="card-yellow">
       <h2>{project.name}</h2>
+      <p>Status: {project.status}</p>
       <p>{text}</p>
       <button className="outline" onClick={toggleOpen}>{label}</button> 
       <p>
