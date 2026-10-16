@@ -9,9 +9,8 @@ import GitHubLink from './GitHubLink.jsx'
 import ProjectCount from './ProjectCount.jsx'
 import Footer from './Footer.jsx'
 import Links from './Links.jsx'
-import SignupPagePortfolioCard from './SignupPagePortfolioCard.jsx'
-import GreetingCardGeneratorPortfolioCard from './GreetingCardGeneratorPortfolioCard.jsx'
-import ClickLabPortfolioCard from './ClickLabPortfolioCard.jsx'
+import ProjectCard from './ProjectCard.jsx'
+import projects from './projects.js'
 
 function App() {
   return (
@@ -28,9 +27,9 @@ function App() {
       <Fortune />
 
       <div className="grid">
-        <SignupPagePortfolioCard />
-        <GreetingCardGeneratorPortfolioCard />
-        <ClickLabPortfolioCard />
+        <ProjectCard project={projects[0]} />
+        <ProjectCard project={projects[1]} />
+        <ProjectCard project={projects[2]} />
       </div>
 
       <Footer />
