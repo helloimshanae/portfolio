@@ -2,17 +2,18 @@
 
 A React site that showcases the projects I built while learning software development in Level 2.
 
+
 ## Components
 
-| Component                            | What it shows                                                              | Where its values come from          | What it remembers                                                    |
-| ------------------------------------ | -------------------------------------------------------------------------- | ----------------------------------- | -------------------------------------------------------------------- |
-| `Header`                             | My name and a line about me                                                | Typed into the JSX                  | —                                                                    |
-| `Hero`                               | My three hero photos and photo controls                                    | `heroPhoto`, which calls `imageUrl` | Which photo is showing, whether it is in color, and the blur setting |
-| `Fortune`                            | A random fortune                                                           | A list and `randomNumber`           | Which fortune is showing                                             |
-| `Footer`                             | Copyright and the current year                                             | The year the page is opened         | —                                                                    |
-| `SignupPagePortfolioCard`            | My Signup Page project with its name, description, and links               | Variables inside the component      | Its likes, saved in local storage                                    |
-| `GreetingCardGeneratorPortfolioCard` | My Greeting Card Generator project with its name, description, and links   | Variables inside the component      | Its likes, saved in local storage                                    |
-| `ClickLabPortfolioCard`              | My Click Lab project, description, and links, with Show More and Show Less | Variables inside the component      | Its likes, saved in local storage, and whether it shows more details |
+| Component | What it shows | Where its values come from | What it remembers | What it receives |
+| --- | --- | --- | --- | --- |
+| `Header` | My name and a line about me | Typed into the JSX | — | - |
+| `Hero` | My three hero photos and photo controls | `heroPhoto`, which calls `imageUrl` | Which photo is showing, whether it is in color, and the blur setting | - |
+| `Fortune` | A random fortune | A list and `randomNumber` | Which fortune is showing | - |
+| `Footer` | Copyright and the current year | The year the page is opened | — | - |
+| `ProjectCard` | One project: its name, description, details, and two links | `projects.js`, through `App` | Its likes, and whether it shows more | `project` |
+| `PhotoControls` | The hero's buttons | `Hero` | - | `onNext`, `onPrevious`, `onColor`, `onBlackAndWhite` |
+
 
 ## What I've built
 

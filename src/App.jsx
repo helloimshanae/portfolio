@@ -9,9 +9,8 @@ import GitHubLink from './GitHubLink.jsx'
 import ProjectCount from './ProjectCount.jsx'
 import Footer from './Footer.jsx'
 import Links from './Links.jsx'
-import SignupPagePortfolioCard from './SignupPagePortfolioCard.jsx'
-import GreetingCardGeneratorPortfolioCard from './GreetingCardGeneratorPortfolioCard.jsx'
-import ClickLabPortfolioCard from './ClickLabPortfolioCard.jsx'
+import ProjectCard from './ProjectCard.jsx'
+import projects from './projects.js'
 
 function App() {
   return (
@@ -28,9 +27,9 @@ function App() {
       <Fortune />
 
       <div className="grid">
-        <SignupPagePortfolioCard />
-        <GreetingCardGeneratorPortfolioCard />
-        <ClickLabPortfolioCard />
+        {projects.map((project) => (
+          <ProjectCard key={project.repoUrl} project={project} />
+        ))}
       </div>
 
       <Footer />
