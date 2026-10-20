@@ -2,21 +2,25 @@ import { useState } from 'react'
 
 function ProjectCard({ project}) {
 
+  const likesKey = `${project.repoUrl}-likes`
+
   const [likes, setLikes] = useState(
-    Number(localStorage.getItem("click-lab-likes"))
+    Number(localStorage.getItem(likesKey) || 0)
   )
 
   const [open, setOpen] = useState(false)
 
   const addLike = () => {
     const newLikes = likes + 1
-    setLikes(likes + 1)
-    localStorage.setItem("click-lab-likes", newLikes)
+    setLikes(newLikes)
+    localStorage.setItem(likesKey, newLikes)
   }
 
   const removeLike = () => {
   if (likes > 0) {
-    setLikes(likes - 1)
+    const newLikes = likes - 1
+    setLikes(newLikes)
+    localStorage.setItem(likesKey, newLikes)
   }
 }
 

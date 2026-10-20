@@ -27,9 +27,9 @@ function App() {
       <Fortune />
 
       <div className="grid">
-        <ProjectCard project={projects[0]} />
-        <ProjectCard project={projects[1]} />
-        <ProjectCard project={projects[2]} />
+        {projects.map((project) => (
+          <ProjectCard key={project.repoUrl} project={project} />
+        ))}
       </div>
 
       <Footer />
